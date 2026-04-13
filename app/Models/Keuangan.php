@@ -4,17 +4,15 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Event extends Model
+class Keuangan extends Model
 {
+    protected $table = 'keuangan';
+
     protected $fillable = [
         'judul',
         'deskripsi',
-        'tanggal',
-        'lokasi',
-        'gambar',
-    ];
-
-    protected $casts = [
-        'tanggal' => 'date',
+        'file_path',
+        'file_name',
+        'periode',
     ];
 }
