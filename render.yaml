@@ -1,0 +1,40 @@
+services:
+  - type: web
+    name: masjid-al-ikhlas
+    runtime: php
+    plan: free
+    buildCommand: bash build.sh
+    startCommand: php artisan serve --host=0.0.0.0 --port=$PORT
+    disk:
+      name: masjid-storage
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: APP_NAME
+        value: Masjid Al-Ikhlas
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
+      - key: APP_KEY
+        generateValue: true
+      - key: DB_CONNECTION
+        value: sqlite
+      - key: DB_DATABASE
+        value: /var/data/database.sqlite
+      - key: SESSION_DRIVER
+        value: file
+      - key: SESSION_LIFETIME
+        value: 120
+      - key: CACHE_STORE
+        value: file
+      - key: QUEUE_CONNECTION
+        value: sync
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: LOG_LEVEL
+        value: error
+      - key: FILESYSTEM_DISK
+        value: local
+      - key: STORAGE_PATH
+        value: /var/data/storage
