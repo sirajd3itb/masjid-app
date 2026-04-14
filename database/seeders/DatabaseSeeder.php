@@ -16,16 +16,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Buat akun admin dari environment variable
-        // Jika sudah ada, skip (tidak duplikat)
-        $email = env('ADMIN_EMAIL', 'admin@masjidalIkhlas.com');
+        $email = env('ADMIN_EMAIL', 'admin@masjidsitihajaralmadinah.com');
 
         User::firstOrCreate(
             ['email' => $email],
             [
-                'name'              => env('ADMIN_NAME', 'Administrator'),
+                'name'              => env('ADMIN_NAME', 'admin'),
                 'email'             => $email,
-                'password'          => Hash::make(env('ADMIN_PASSWORD', 'password123')),
+                'password'          => Hash::make(env('ADMIN_PASSWORD', 'tugasmasjid2026')),
                 'email_verified_at' => now(),
             ]
         );

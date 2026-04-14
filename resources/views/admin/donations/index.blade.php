@@ -30,7 +30,7 @@
 <div class="page-header">
     <div>
         <h2 style="font-size:1.4rem;font-weight:800;color:#0d2318">Data Donasi</h2>
-        <p style="font-size:.85rem;color:#9ca3af;margin-top:.2rem">Daftar seluruh donasi yang masuk ke Masjid Al-Ikhlas</p>
+        <p style="font-size:.85rem;color:#9ca3af;margin-top:.2rem">Daftar seluruh donasi yang masuk ke Masjid Raya Siti Hajar Al-Madinah</p>
     </div>
     <a href="{{ route('admin.donations.create') }}" class="btn-primary">➕ Tambah Donasi</a>
 </div>

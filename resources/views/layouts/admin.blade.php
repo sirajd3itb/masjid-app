@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title', 'Admin') — Masjid Al-Ikhlas</title>
+    <title>@yield('title', 'Admin') — Masjid Raya Siti Hajar Al-Madinah</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -51,7 +51,7 @@
         <div style="display:flex;align-items:center;gap:.7rem;margin-bottom:.25rem">
             <div style="width:36px;height:36px;background:#c9a227;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem">🕌</div>
             <div>
-                <div class="sidebar-brand-name">Al-Ikhlas</div>
+                <div class="sidebar-brand-name">Siti Hajar Al-Madinah</div>
                 <div class="sidebar-brand-sub">Admin Panel</div>
             </div>
         </div>

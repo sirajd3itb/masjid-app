@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Masjid Al-Ikhlas — Rumah Allah Yang Mulia</title>
-    <meta name="description" content="Masjid Al-Ikhlas — masjid yang melayani jamaah dengan penuh keikhlasan di Kota Jakarta. Temukan jadwal sholat, kegiatan, dan informasi donasi.">
+    <title>Masjid Raya Siti Hajar Al-Madinah — Rumah Allah Yang Mulia</title>
+    <meta name="description" content="Masjid Raya Siti Hajar Al-Madinah — masjid yang melayani jamaah dengan penuh keikhlasan di Kota Jakarta. Temukan jadwal sholat, kegiatan, dan informasi donasi.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -311,7 +311,7 @@
     <a href="#" class="nav-brand">
         <div class="nav-icon">🕌</div>
         <div>
-            <div class="nav-name">Masjid Al-Ikhlas</div>
+            <div class="nav-name">Masjid Raya Siti Hajar Al-Madinah</div>
             <div class="nav-sub">Rumah Allah Yang Mulia</div>
         </div>
     </a>
@@ -394,7 +394,7 @@
     <div class="hero-content">
         <div class="hero-arabic fade-up" style="transition-delay:.1s">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
         <div class="hero-badge fade-up" style="transition-delay:.2s">✦ Selamat Datang ✦</div>
-        <h1 class="hero-name fade-up" style="transition-delay:.3s">Masjid Al-Ikhlas</h1>
+        <h1 class="hero-name fade-up" style="transition-delay:.3s">Masjid Raya Siti Hajar Al-Madinah</h1>
         <p class="hero-desc fade-up" style="transition-delay:.4s">
             Tempat ibadah, belajar, dan silaturahmi bagi seluruh umat Muslim.
             Hadir melayani jamaah dengan penuh keikhlasan dan kasih sayang.
@@ -446,7 +446,7 @@
                 <h2 class="section-title fade-up">Mengenal Lebih Dekat<br>Masjid Kami</h2>
                 <div class="gold-bar fade-up"></div>
                 <p class="section-desc fade-up">
-                    Masjid Al-Ikhlas didirikan pada tahun 1985 sebagai pusat kegiatan ibadah dan sosial masyarakat.
+                    Masjid Raya Siti Hajar Al-Madinah didirikan pada tahun 1985 sebagai pusat kegiatan ibadah dan sosial masyarakat.
                     Selama lebih dari 39 tahun, kami telah menjadi rumah bagi ribuan jamaah yang mencari ketenangan,
                     ilmu, dan kebersamaan dalam naungan rahmat Allah SWT.
                 </p>
@@ -523,7 +523,7 @@
                 <span class="section-badge fade-up">📅 Kegiatan</span>
                 <h2 class="section-title fade-up">Kegiatan & Agenda Masjid</h2>
                 <div class="gold-bar fade-up"></div>
-                <p class="section-desc fade-up">Program dan kegiatan yang akan segera berlangsung di Masjid Al-Ikhlas.</p>
+                <p class="section-desc fade-up">Program dan kegiatan yang akan segera berlangsung di Masjid Raya Siti Hajar Al-Madinah.</p>
             </div>
         </div>
 
@@ -571,7 +571,7 @@
             <h2 class="section-title fade-up">Dukung Kemakmuran Masjid</h2>
             <div class="gold-bar fade-up" style="margin:1rem auto"></div>
             <p class="section-desc fade-up" style="margin:0 auto">
-                Setiap donasi Anda akan digunakan untuk kemajuan dan kemakmuran Masjid Al-Ikhlas.
+                Setiap donasi Anda akan digunakan untuk kemajuan dan kemakmuran Masjid Raya Siti Hajar Al-Madinah.
                 Semua transaksi transparan dan dapat dipertanggungjawabkan.
             </p>
         </div>
@@ -583,7 +583,7 @@
                 <div class="bank-card">
                     <div class="bank-label">🏦 Bank BCA</div>
                     <div class="bank-number">1234 5678 90</div>
-                    <div class="bank-holder">a.n. Masjid Al-Ikhlas</div>
+                    <div class="bank-holder">a.n. Masjid Raya Siti Hajar Al-Madinah</div>
                     <button class="copy-btn" onclick="copyText('1234567890','bca')">📋 Salin Nomor Rekening</button>
                     <div id="toast-bca" style="font-size:.78rem;color:var(--gold-l);margin-top:.5rem;display:none">✓ Disalin!</div>
                 </div>
@@ -591,7 +591,7 @@
                 <div class="bank-card">
                     <div class="bank-label">🏦 Bank BNI Syariah</div>
                     <div class="bank-number">0987 6543 21</div>
-                    <div class="bank-holder">a.n. Masjid Al-Ikhlas</div>
+                    <div class="bank-holder">a.n. Masjid Raya Siti Hajar Al-Madinah</div>
                     <button class="copy-btn" onclick="copyText('0987654321','bni')">📋 Salin Nomor Rekening</button>
                     <div id="toast-bni" style="font-size:.78rem;color:var(--gold-l);margin-top:.5rem;display:none">✓ Disalin!</div>
                 </div>
@@ -665,7 +665,7 @@
                         <div class="contact-icon-box">✉️</div>
                         <div class="contact-text">
                             <h4>Email</h4>
-                            <p>info@masjidalIkhlas.com</p>
+                            <p>info@masjidsitihajaralmadinah.com</p>
                         </div>
                     </div>
                     <div class="contact-item fade-up">
@@ -697,7 +697,7 @@
             <div style="display:flex;align-items:center;gap:.75rem">
                 <div style="width:42px;height:42px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem">🕌</div>
                 <div>
-                    <div style="font-weight:700;font-size:1rem">Masjid Al-Ikhlas</div>
+                    <div style="font-weight:700;font-size:1rem">Masjid Raya Siti Hajar Al-Madinah</div>
                     <div style="font-size:.6rem;color:var(--gold);letter-spacing:2px;text-transform:uppercase">Rumah Allah Yang Mulia</div>
                 </div>
             </div>
@@ -727,7 +727,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© {{ date('Y') }} Masjid Al-Ikhlas. Semua hak dilindungi. Dibuat dengan ❤️ untuk kemakmuran masjid.</p>
+        <p>© {{ date('Y') }} Masjid Raya Siti Hajar Al-Madinah. Semua hak dilindungi. Dibuat dengan ❤️ untuk kemakmuran masjid.</p>
     </div>
 </footer>
 
