@@ -54,6 +54,13 @@ class EventController extends Controller
             'gambar'    => 'nullable|image|mimes:jpeg,png,jpg,webp|max:2048',
         ]);
 
+        // Hapus gambar jika checkbox dicentang
+        if ($request->boolean('hapus_gambar') && $event->gambar) {
+            Storage::disk('public')->delete($event->gambar);
+            $validated['gambar'] = null;
+        }
+
+        // Ganti dengan gambar baru jika di-upload
         if ($request->hasFile('gambar')) {
             if ($event->gambar) {
                 Storage::disk('public')->delete($event->gambar);
