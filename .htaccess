@@ -8,5 +8,5 @@
 
     # Forward all requests to the public directory
     RewriteCond %{REQUEST_URI} !^/public/
-    RewriteRule ^(.*)$ public/$1 [L,QSA]
+    RewriteRule ^(.*)$ public/index.php?/$1 [L,QSA]
 </IfModule>
